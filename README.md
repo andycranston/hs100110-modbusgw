@@ -1,8 +1,9 @@
 # TP-Link HS100 and HS110 Mosbus Gateway
 
-Python code to implement a Modbus gateway to allow SCADA (System Control and Data Aquisition)
-systems to read the on/off status of TP-Link HS100 and HS110 Smart Wifi Plugs.  Also
-allows these systems to switch the plugs on and off under their own control.
+Python code to implement a Modbus gateway to allow SCADA (Supervisory
+Control and Data Aquisition) systems to read the on/off status of TP-Link
+HS100 and HS110 Smart Wifi Plugs.  Also allows these systems to switch
+the plugs on and off under their own control.
 
 # Production Ready?
 
