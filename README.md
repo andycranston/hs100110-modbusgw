@@ -13,8 +13,8 @@ Needs plenty of error checking to get it more bullet proof.
 
 # The programs
 
-> `modbusgwudp.py` - uses Modbus over UDP
-> `modbusgwtcp.py` - uses Modbus over TCP
+* `modbusgwudp.py` - uses Modbus over UDP
+* `modbusgwtcp.py` - uses Modbus over TCP
 
 The UDP client will not get any future work.
 
