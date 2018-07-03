@@ -1,6 +1,6 @@
 #! /usr/bin/python3
 #
-# @(!--#) @(#) modbusgwtcp.py, version 004, 02-july-2018
+# @(!--#) @(#) modbusgwtcp.py, version 005, 03-july-2018
 #
 # modbus gateway over TCP for a TP-Link HS100/HS110 Smart WiFi Plug
 #
@@ -11,6 +11,7 @@
 #    https://github.com/softScheck/tplink-smartplug/blob/master/tplink-smartplug.py
 #    https://unserver.xyz/modbus-guide/
 #    https://www.binarytides.com/python-socket-programming-tutorial/
+#    https://pymotw.com/3/threading/
 #
 
 #
@@ -301,7 +302,9 @@ while True:
 
     print("Got connection from {}".format(clientaddress))
 
-    handleconnection(conn)
+    t = threading.Thread(target=handleconnection, args=(conn,))
+    t.start()
+    # handleconnection(conn)
 
     print("Connection closed")
 
