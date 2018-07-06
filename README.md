@@ -97,16 +97,11 @@ Here are things still left to do:
 Some useful links that helped with the development of this code - a big
 thank you from me to all concerned:
 
-[Reverse Engineering the TP-Link HS110](https://www.softscheck.com/en/reverse-engineering-tp-link-hs110/)
-
-[TP-Link WiFi SmartPlug Client and Wireshark Dissector](https://github.com/softScheck/tplink-smartplug)
-
-[tplink-smartplug/tplink_smartplug.py](https://github.com/softScheck/tplink-smartplug/blob/master/tplink_smartplug.py)
-
-[Complete Modbus Guide](https://unserver.xyz/modbus-guide/)
-
-[Python socket – network programming tutorial](https://www.binarytides.com/python-socket-programming-tutorial/)
-
-[threading — Manage Concurrent Operations Within a Process](https://pymotw.com/3/threading/)
+* [Reverse Engineering the TP-Link HS110](https://www.softscheck.com/en/reverse-engineering-tp-link-hs110/)
+* [TP-Link WiFi SmartPlug Client and Wireshark Dissector](https://github.com/softScheck/tplink-smartplug)
+* [tplink-smartplug/tplink_smartplug.py](https://github.com/softScheck/tplink-smartplug/blob/master/tplink_smartplug.py)
+* [Complete Modbus Guide](https://unserver.xyz/modbus-guide/)
+* [Python socket – network programming tutorial](https://www.binarytides.com/python-socket-programming-tutorial/)
+* [threading — Manage Concurrent Operations Within a Process](https://pymotw.com/3/threading/)
 
 -----------------------------------------------
