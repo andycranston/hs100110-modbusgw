@@ -1,4 +1,4 @@
-# TP-Link HS100 and HS110 Mosbus Gateway
+# TP-Link HS100 and HS110 Modbus Gateway
 
 Python code to implement a Modbus gateway to allow SCADA (Supervisory
 Control and Data Aquisition) systems to read the on/off status of TP-Link
@@ -58,13 +58,13 @@ below I will use this port number:
 To run the gateway using Modbus over UDP type:
 
 ```
-python mosbusgwudp --ipaddr 192.168.1.65 --port 8502
+python modbusgwudp --ipaddr 192.168.1.65 --port 8502
 ```
 
 Similarly to run the gateway using Modbus over TCP type:
 
 ```
-python mosbusgwudp --ipaddr 192.168.1.65 --port 8502
+python modbusgwtcp --ipaddr 192.168.1.65 --port 8502
 ```
 
 ## Configure your SCADA system to talk to the gateway
