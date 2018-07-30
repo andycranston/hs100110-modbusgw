@@ -23,16 +23,18 @@ However, the TCP version is lined up for more development.
 ## Running the progams
 
 Copy the Python programs to a directory on your UNIX/Linux
-system.  Change to that directory.  Determine the IP address
-of your UNIX/Linux system.  Typing one of:
+system.  Change to that directory.
+
+Now determine the IP address of your UNIX/Linux system.  Typing one of:
 
 ```
 ifconfig -a
 ip addr
 ```
 
-Should provide the details you need.  For the examples here I will
-assume ths IP address is:
+should provide the IP address.
+
+For the examples here I will assume ths IP address is:
 
 ```
 192.168.1.13
@@ -43,6 +45,14 @@ plugs.  For the examples here I will use:
 
 ```
 192.168.1.65
+```
+
+If you don't know the IP address of your TP-Link HS100 or HS110 then
+look at the DHCP allocation on your router.  Look for MAC addresses that begin
+with:
+
+```
+50:c7:bf
 ```
 
 Next choose a TCP/IP port that the programs will bind to.  Modbus usually
@@ -58,13 +68,13 @@ below I will use this port number:
 To run the gateway using Modbus over UDP type:
 
 ```
-python modbusgwudp --ipaddr 192.168.1.65 --port 8502
+python modbusgwudp.py --ipaddr 192.168.1.65 --port 8502
 ```
 
 Similarly to run the gateway using Modbus over TCP type:
 
 ```
-python modbusgwtcp --ipaddr 192.168.1.65 --port 8502
+python modbusgwtcp.py --ipaddr 192.168.1.65 --port 8502
 ```
 
 ## Configure your SCADA system to talk to the gateway
