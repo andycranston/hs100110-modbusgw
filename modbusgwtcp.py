@@ -1,6 +1,6 @@
 #! /usr/bin/python3
 #
-# @(!--#) @(#) modbusgwtcp.py, version 005, 03-july-2018
+# @(!--#) @(#) modbusgwtcp.py, version 006, 08-july-2018
 #
 # modbus gateway over TCP for a TP-Link HS100/HS110 Smart WiFi Plug
 #
@@ -280,7 +280,8 @@ args = parser.parse_args()
 ipaddr = args.ipaddr
 port = int(args.port)
 
-print("====== {} === HS100/110 IP address: {} === Modbus Port: {} ======".format(progname, ipaddr, port))
+print("HS100/110 IP address: {}".format(ipaddr))
+print("Modbus Port: {}".format(port))
 
 print("Creating TCP socket")
 tcp = socket.socket(family=socket.AF_INET, type=socket.SOCK_STREAM)
